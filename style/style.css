@@ -145,19 +145,20 @@ span.tiktok-custom {
     -webkit-text-fill-color: transparent;
 }
 .b-list li {
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 10px;
     color: #534C64;
 }
 .b-btn a {
     background: pink;
-    padding: 9px 21px;
+    padding: 12px 21px;
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     color: #fff;
     display: inline-block;
     margin-top: 20px;
-    font-size: 17px;
+    font-size: 15px;
+    font-weight: bold;
 }
 a.sky {
     background: #4EC5F7;
@@ -355,16 +356,6 @@ span.play-unique {
     justify-content: center;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* Play area style end */
 /* Button area start here */
 .section-button-area {
@@ -373,6 +364,13 @@ span.play-unique {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+div#active-btn {
+    background: #fff;
+    border: solid 1px tomato;
+}
+div#active-btn p {
+    color: black;
 }
 .multiple-btn img {
     width: 40px;
