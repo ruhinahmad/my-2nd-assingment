@@ -286,7 +286,9 @@ i.fa-solid.fa-arrow-down {
 .multiple-btn:hover p {
     color: black;
 }
-
+.b-list span {
+    margin-right: 10px;
+}
 /* Games-area end here */
 /* Play area style start*/
 .play-content {
