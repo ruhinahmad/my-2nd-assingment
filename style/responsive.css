@@ -1,5 +1,19 @@
-@media (min-width:425px) and (max-width:576px){
-    .boxes {
+@media (min-width:425px) and (max-width:484px){
+    .nav-container {
+        width: 100%;
         flex-direction: column;
+    }
+    .menu {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .menu-list {
+        flex-direction: column;
+        display: flex;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .menu-list a {
+        margin-bottom: 10px;
     }
 }
