@@ -107,7 +107,29 @@
         font-size: 9px;
         margin: 0 9px;
     }
-
+    .list-01 {
+        margin-bottom: 30px;
+    }
+    .list {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    ul.social {
+        flex-direction: column;
+        align-items: center;
+    }
+    .social-1 {
+        margin-bottom: 30px;
+    }
+    .copyright {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sub-copy {
+        margin-top: 70px;
+    }
 
 
 

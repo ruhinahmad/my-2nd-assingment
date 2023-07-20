@@ -483,7 +483,7 @@ ul.social a {
 .copyright {
     width: 700px;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     margin: 0 auto;
     color: rgba(255, 255, 255, 0.60);
 }
@@ -494,12 +494,36 @@ ul.social a {
     padding: 100px 0px;
     background: #0B0223;
 }
-
-
-
-
-
-
+.list-02 {
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+}
+.list-01 {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+}
+.social-2 {
+    display: flex;
+    width: 170px;
+    justify-content: space-around;
+}
+.social-1 {
+    display: flex;
+    justify-content: space-around;
+    width: 170px;
+}
+.p-tag {
+    display: flex;
+    width: 270px;
+    justify-content: space-around;
+}
+.p-tag-1 {
+    display: flex;
+    width: 320px;
+    justify-content: space-around;
+}
 
 
 
