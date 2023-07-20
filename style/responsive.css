@@ -1,19 +1,115 @@
-@media (min-width:425px) and (max-width:484px){
+@media screen and (min-width:425px) and (max-width:484px){
     .nav-container {
         width: 100%;
         flex-direction: column;
     }
     .menu {
         flex-direction: column;
-        margin-top: 30px;
+        margin-top: 40px;
     }
     .menu-list {
-        flex-direction: column;
         display: flex;
-        margin-bottom: 30px;
+        flex-direction: column;
+        margin-bottom: 29px;
+        text-align: center;
+    }
+    .menu-list {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
         text-align: center;
     }
     .menu-list a {
         margin-bottom: 10px;
     }
+    .left-img img {
+        width: 100%;
+        height: 100vh;
+    }
+    .banner-content {
+        width: 100%;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        display: flex;
+        margin-top: 200px;
+    }
+    .banner-item {
+        margin-top: 80px;
+    }
+    .boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+    .games-section {
+        width: 100%;
+    }
+    .game-box-1 {
+        margin-bottom: 40px;
+    }
+    .games-title p {
+        font-size: 10px;
+    }
+    .games-title h2 {
+        font-size: 18px;
+        font-weight: 800;
+    }
+    .play-content {
+        width: 100%;
+        flex-direction: column;
+    }
+    .play-sub-content {
+        width: 100%;
+        text-align: center;
+    }
+    .play-section {
+        padding: 0 0;
+    }
+    span.play-unique {
+        font-size: 32px;
+    }
+    .play-item {
+        margin-bottom: 40px;
+    }
+    .play-sub-content p {
+        font-size: 15px;
+    }
+    .play-img-2 {
+        width: 129px;
+        height: 168px;
+        left: -42px;
+    }
+    .play-img {
+        width: 90%;
+        height: 325px;
+    }
+    .play-left {
+        display: flex;
+        justify-content: center;
+    }
+    div#d-n-1 {
+        display: none;
+    }
+    div#d-n-2 {
+        display: none;
+    }
+    div#d-n-3 {
+        display: none;
+    }
+    .multiple-btn {
+        align-items: center;
+        padding: 0px 5px;
+    }
+    .multiple-btn img {
+        width: 25px;
+        height: 25px;
+    }
+    .multiple-btn p {
+        font-size: 9px;
+        margin: 0 9px;
+    }
+
+
+
+
+
 }
