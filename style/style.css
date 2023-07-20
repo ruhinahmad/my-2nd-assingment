@@ -144,6 +144,13 @@ span.tiktok-custom {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+span.dot {
+    display: inline-flex;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    border-radius: 50px;
+}
 .b-list li {
     font-size: 14px;
     margin-top: 10px;
@@ -163,12 +170,6 @@ span.tiktok-custom {
 a.sky {
     background: #4EC5F7;
 }
-
-
-
-
-
-
 /* Games-area start here */
 .game-area {
     display: flex;
