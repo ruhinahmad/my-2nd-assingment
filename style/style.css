@@ -391,6 +391,7 @@ div#active-btn p {
     display: flex;
     justify-content: space-evenly;
     border-radius: 50px;
+    border: solid 1px tomato;
 }
 .button-1 {
     display: flex;

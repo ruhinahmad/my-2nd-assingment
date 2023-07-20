@@ -2,4 +2,10 @@
     .nav-container{
         flex-direction: column;
     }
+    .boxes {
+        flex-direction: column;
+    }
+    .play-content {
+        flex-direction: column;
+    }
 }
